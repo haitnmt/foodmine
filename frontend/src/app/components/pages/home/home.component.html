@@ -1,1 +1,16 @@
-<p>home works!</p>
+<ul>
+    <li>
+        @for (food of foods; track food.id) {
+            <a routerLink="/food/{food.id}">
+                <img [src]="food.imageUrl" [alt]="food.name"/>
+                <div class="content">
+                    <div class="name">{{food.name}}</div>
+                    <span class="favorite {{food.favorite?'':'not'}}">
+                        ❤
+                      </span>
+                </div>
+            </a>
+        }
+    </li>
+
+</ul>
