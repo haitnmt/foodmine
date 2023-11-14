@@ -1,27 +1,21 @@
-# Frontend
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+##Các bài học đã trải qua:
+1. Giới thiệu
+2. Cài đặt các thành phần lập trình, phát triển phần mềm: NodeJS, Angular, Visual Studio Code, ...
+3. Tạo ứng dụng Angular App
+    1. Tạo thư mục dự án
+    2. Cài đặt Angular Cli: @angular/cli
+    3. Tạo mới ứng dụng frontend
+4. Tạo Header (thanh tiêu đề)
+    1. Tạo Component
+    2. Thêm các đối tượng Html
+    3. Thêm các đội tượng kiểu: Css
+5. Danh sách đồ ăn - List Foods
+    1. Create Food model
+    2. Create data.ts
+        1. Add sample foods
+    3. Add images to assets
+    4. Create Food service
+    5. Create Home component
+        1. Add ts
+        2. Add html
+        3. Add css
