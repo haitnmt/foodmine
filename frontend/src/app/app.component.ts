@@ -5,8 +5,6 @@ import { HeaderComponent } from './components/partials/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { SearchComponent } from './components/partials/search/search.component';
 import { HttpClientModule } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
-
 
 @Component({
   selector: 'app-root',
@@ -15,7 +13,6 @@ import { BrowserModule } from '@angular/platform-browser';
     CommonModule,
     RouterOutlet,
     HttpClientModule,
-    BrowserModule,
     HeaderComponent,
     SearchComponent,
     HomeComponent,
