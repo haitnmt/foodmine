@@ -19,3 +19,13 @@
         1. Add ts
         2. Add html
         3. Add css
+6. Tìm kiếm
+    1. Thêm method vào Food service
+    2. Thêm search router
+    3. Hiển thị kết qủa tìm kiếm trong HomeComponent
+    4. Tạo Search component
+        1. Thêm vào home component
+        2. Add ts
+        3. Add html
+        4. Add css
+    

@@ -1,5 +1,4 @@
-import { Food } from "./app/shared/models/Food";
-export const sample_foods: Food[] = [
+export const sample_foods: any[] = [
     {
       id:'1',
       name: 'Pizza Pepperoni',
