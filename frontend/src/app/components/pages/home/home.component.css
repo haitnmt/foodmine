@@ -61,7 +61,7 @@ ul{
     flex: 9;
   }
   
-  .origins span{
+  .origins-span{
     border-radius: 2rem;
     background-color: whitesmoke;
     display: inline-block;
@@ -71,7 +71,7 @@ ul{
     padding: 0 0.5rem;
     margin-top: 0.2rem;
   }
-  
+
   .cook-time{
     font-size: 0.9rem;
     flex: 3;
